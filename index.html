@@ -1,0 +1,425 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AuraShop - Modern Online Shopping</title>
+
+    <!-- Tailwind CSS compiled file -->
+    <link rel="stylesheet" href="css/output.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
+
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-extrabold tracking-tight text-indigo-600">
+                Aura<span class="text-slate-900">Shop.</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+
+                <a href="#" class="text-indigo-600">Home</a>
+
+                <a href="#products" class="hover:text-indigo-600 transition">
+                    Shop
+                </a>
+
+                <a href="#categories" class="hover:text-indigo-600 transition">
+                    Categories
+                </a>
+
+                <a href="#about" class="hover:text-indigo-600 transition">
+                    About
+                </a>
+
+            </nav>
+
+            <!-- Cart Button -->
+            <div class="flex items-center gap-4">
+
+                <button class="relative text-2xl" aria-label="Shopping cart">
+                    🛒
+
+                    <span class="absolute -top-2 -right-2 bg-indigo-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
+                        0
+                    </span>
+                </button>
+
+                <button class="hidden sm:block bg-indigo-600 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-indigo-700 transition">
+                    Sign In
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="max-w-7xl mx-auto px-5 py-16 md:py-24">
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- Hero Text -->
+            <div>
+
+                <span class="inline-block bg-indigo-100 text-indigo-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                    ✨ Discover Your Style
+                </span>
+
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-slate-900">
+
+                    Shop Smart.
+                    <span class="text-indigo-600">
+                        Live Better.
+                    </span>
+
+                </h1>
+
+                <p class="text-slate-500 text-lg mt-6 leading-relaxed max-w-lg">
+
+                    Discover amazing products, explore the latest trends
+                    and enjoy a premium shopping experience with AuraShop.
+
+                </p>
+
+                <div class="flex flex-wrap gap-4 mt-8">
+
+                    <a href="#products"
+                       class="bg-indigo-600 text-white px-8 py-3.5 rounded-full font-semibold hover:bg-indigo-700 transition">
+
+                        Shop Now →
+
+                    </a>
+
+                    <a href="#categories"
+                       class="border border-slate-300 px-8 py-3.5 rounded-full font-semibold hover:bg-white transition">
+
+                        Explore Categories
+
+                    </a>
+
+                </div>
+
+                <!-- Statistics -->
+                <div class="flex gap-10 mt-12">
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">10K+</h3>
+                        <p class="text-sm text-slate-500">Happy Customers</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">500+</h3>
+                        <p class="text-sm text-slate-500">Products</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-slate-900">4.9</h3>
+                        <p class="text-sm text-slate-500">Customer Rating</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="relative">
+
+                <div class="absolute inset-0 bg-indigo-200 rounded-3xl rotate-3 ">
+                </div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1000"
+                    alt="Modern fashion shopping store"
+                    class="relative w-full h-80 md:h-120 object-cover rounded-3xl shadow-xl"
+                >
+
+                <div class="absolute bottom-6 left-6 bg-white p-4 rounded-2xl shadow-lg">
+
+                    <p class="text-sm text-slate-500">Special Collection</p>
+
+                    <h3 class="font-bold text-slate-900">
+                        New Season 2026
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section id="categories" class="bg-white py-16">
+
+        <div class="max-w-7xl mx-auto px-5">
+
+            <div class="text-center mb-12">
+
+                <p class="text-indigo-600 font-semibold text-sm">
+                    EXPLORE COLLECTIONS
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-3">
+                    Shop By Category
+                </h2>
+
+                <p class="text-slate-500 mt-3">
+                    Find everything you need in one place.
+                </p>
+
+            </div>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+                <!-- Category 1 -->
+                <div class="bg-slate-50 rounded-2xl p-5 text-center hover:shadow-lg transition cursor-pointer">
+
+                    <div class="text-5xl mb-4">👕</div>
+
+                    <h3 class="font-bold text-lg">Fashion</h3>
+
+                    <p class="text-sm text-slate-500 mt-1">120 Products</p>
+
+                </div>
+
+
+                <!-- Category 2 -->
+                <div class="bg-slate-50 rounded-2xl p-5 text-center hover:shadow-lg transition cursor-pointer">
+
+                    <div class="text-5xl mb-4">⌚</div>
+
+                    <h3 class="font-bold text-lg">Accessories</h3>
+
+                    <p class="text-sm text-slate-500 mt-1">85 Products</p>
+
+                </div>
+
+
+                <!-- Category 3 -->
+                <div class="bg-slate-50 rounded-2xl p-5 text-center hover:shadow-lg transition cursor-pointer">
+
+                    <div class="text-5xl mb-4">🎧</div>
+
+                    <h3 class="font-bold text-lg">Electronics</h3>
+
+                    <p class="text-sm text-slate-500 mt-1">95 Products</p>
+
+                </div>
+
+
+                <!-- Category 4 -->
+                <div class="bg-slate-50 rounded-2xl p-5 text-center hover:shadow-lg transition cursor-pointer">
+
+                    <div class="text-5xl mb-4">👟</div>
+
+                    <h3 class="font-bold text-lg">Shoes</h3>
+
+                    <p class="text-sm text-slate-500 mt-1">75 Products</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURED PRODUCTS ================= -->
+
+    <section id="products" class="max-w-7xl mx-auto px-5 py-20">
+
+        <div class="flex flex-wrap justify-between items-end gap-5 mb-10">
+
+            <div>
+
+                <p class="text-indigo-600 font-semibold text-sm">
+                    OUR COLLECTION
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">
+                    Featured Products
+                </h2>
+
+                <p class="text-slate-500 mt-3">
+                    Handpicked products just for you.
+                </p>
+
+            </div>
+
+            <a href="#products" class="text-indigo-600 font-semibold hover:underline">
+                View All Products →
+            </a>
+
+        </div>
+
+
+        <!-- Product Grid -->
+        <div id="product-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7">
+
+
+
+
+    </section>
+
+
+    <!-- ================= PROMO SECTION ================= -->
+
+    <section class="max-w-7xl mx-auto px-5 pb-20">
+
+        <div class="bg-indigo-600 rounded-3xl p-8 md:p-14 text-white text-center">
+
+            <p class="text-indigo-200 font-semibold text-sm">
+                SPECIAL OFFER
+            </p>
+
+            <h2 class="text-3xl md:text-5xl font-extrabold mt-4">
+                Get 20% Off Your First Order
+            </h2>
+
+            <p class="text-indigo-100 mt-5">
+                Discover your favorite products and enjoy exclusive deals.
+            </p>
+
+            <a href="#products"
+               class="inline-block bg-white text-indigo-600 px-8 py-3 rounded-full font-bold mt-8 hover:bg-indigo-50 transition">
+
+                Start Shopping
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section id="about" class="bg-white py-16">
+
+        <div class="max-w-3xl mx-auto px-5 text-center">
+
+            <h2 class="text-3xl font-bold">
+                Stay Updated With AuraShop
+            </h2>
+
+            <p class="text-slate-500 mt-3">
+                Subscribe to receive updates about new products and special offers.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-3 mt-8">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    class="flex-1 border border-slate-300 rounded-xl px-5 py-3 outline-none focus:border-indigo-500"
+                >
+
+                <button class="bg-indigo-600 text-white px-7 py-3 rounded-xl font-semibold hover:bg-indigo-700 transition">
+
+                    Subscribe
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-slate-900 text-white py-12">
+
+        <div class="max-w-7xl mx-auto px-5">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+
+                <div>
+
+                    <h2 class="text-2xl font-extrabold">
+                        Aura<span class="text-indigo-400">Shop.</span>
+                    </h2>
+
+                    <p class="text-slate-400 mt-4 leading-relaxed">
+                        Your trusted destination for modern shopping.
+                        Discover quality products at amazing prices.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h3 class="font-bold text-lg mb-4">
+                        Quick Links
+                    </h3>
+
+                    <ul class="space-y-3 text-slate-400">
+
+                        <li><a href="#" class="hover:text-white">Home</a></li>
+
+                        <li><a href="#products" class="hover:text-white">Shop</a></li>
+
+                        <li><a href="#categories" class="hover:text-white">Categories</a></li>
+
+                        <li><a href="#about" class="hover:text-white">About</a></li>
+
+                    </ul>
+
+                </div>
+
+
+                <div>
+
+                    <h3 class="font-bold text-lg mb-4">
+                        Contact
+                    </h3>
+
+                    <p class="text-slate-400">Email: support@aurashop.com</p>
+
+                    <p class="text-slate-400 mt-3">Available 24/7</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="border-t border-slate-700 mt-10 pt-6 text-center text-slate-400 text-sm">
+
+                © 2026 AuraShop. All rights reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
